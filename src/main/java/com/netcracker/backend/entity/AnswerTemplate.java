@@ -1,6 +1,7 @@
 package com.netcracker.backend.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import javax.persistence.*;
@@ -16,7 +17,7 @@ public class AnswerTemplate {
 
     @Basic
     @OneToMany(mappedBy = "answerTemplate")
-    @JsonManagedReference
+    @JsonManagedReference(value = "answer-subanswer")
     public List<AnswerSubmitted> getAnswerSubmittedList() {
         return answerSubmittedList;
     }
@@ -26,6 +27,7 @@ public class AnswerTemplate {
     }
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     public long getId() {
         return id;
@@ -48,7 +50,7 @@ public class AnswerTemplate {
     @Basic
     @ManyToOne(optional = false)
     @JoinColumn(name = "question_id")
-    @JsonBackReference
+    @JsonBackReference(value = "question-answer")
     public Question getQuestion() {
         return question;
     }

@@ -12,6 +12,7 @@ public class Login {
     private User user;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     public long getId() {
         return id;
@@ -43,7 +44,7 @@ public class Login {
 
     @Basic
     @OneToOne(optional = false)
-    @JsonBackReference
+    @JsonBackReference(value = "user-login")
     @JoinColumn(name = "user_id")
     public User getUser() {
         return user;

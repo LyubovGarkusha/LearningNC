@@ -21,4 +21,6 @@ public class QuestionController {
     public List<Question> getQuestionsForQuize(@PathVariable(name = "quizId") int quizId){
         return questionService.getQuestionsForQuiz(quizId);
     }
+
+
 }

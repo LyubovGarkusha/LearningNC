@@ -23,4 +23,6 @@ public class UserController {
     public ArrayList<User> findAll(){
         return userService.getAllUsers();
     }
+
+
 }

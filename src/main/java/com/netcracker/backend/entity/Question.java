@@ -17,8 +17,8 @@ public class Question {
     private List<AnswerSubmitted> answerSubmittedList;
 
     @Basic
-    @OneToMany(mappedBy = "answerTemplate")
-    @JsonManagedReference
+    @OneToMany(mappedBy = "question")
+    @JsonManagedReference(value = "question-subanswer")
     public List<AnswerSubmitted> getAnswerSubmittedList() {
         return answerSubmittedList;
     }
@@ -29,7 +29,7 @@ public class Question {
 
     @Basic
     @OneToMany(mappedBy = "question")
-    @JsonManagedReference
+    @JsonManagedReference(value = "question-answer")
     public List<AnswerTemplate> getAnswerTemplates() {
         return answerTemplates;
     }
@@ -39,6 +39,7 @@ public class Question {
     }
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     public long getId() {
         return id;
@@ -81,7 +82,7 @@ public class Question {
     @Basic
     @ManyToOne(optional = false)
     @JoinColumn(name = "quiz_id")
-    @JsonBackReference
+    @JsonBackReference(value = "quiz-question")
     public Quiz getQuiz() {
         return quiz;
     }

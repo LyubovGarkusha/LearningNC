@@ -8,4 +8,5 @@ import java.util.List;
 @Component
 public interface QuestionService {
     public List<Question> getQuestionsForQuiz(long idQuiz);
+    public Question findById (long questionId);
 }

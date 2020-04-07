@@ -16,7 +16,7 @@ public class AnswerSubmitted {
     @Basic
     @ManyToOne(optional = false)
     @JoinColumn(name = "question_id")
-    @JsonBackReference
+    @JsonBackReference(value = "question-subanswer")
     public Question getQuestion() {
         return question;
     }
@@ -28,7 +28,7 @@ public class AnswerSubmitted {
     @Basic
     @ManyToOne(optional = false)
     @JoinColumn(name = "quiz_id")
-    @JsonBackReference
+    @JsonBackReference(value = "quiz-subanswer")
     public Quiz getQuiz() {
         return quiz;
     }
@@ -38,6 +38,7 @@ public class AnswerSubmitted {
     }
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     public long getId() {
         return id;
@@ -50,7 +51,7 @@ public class AnswerSubmitted {
     @Basic
     @ManyToOne(optional = true)
     @JoinColumn(name = "user_id")
-    @JsonBackReference
+    @JsonBackReference(value = "user-subanswer")
     public User getUser() {
         return user;
     }
@@ -72,7 +73,7 @@ public class AnswerSubmitted {
     @Basic
     @ManyToOne(optional = true)
     @JoinColumn(name = "template_answer_id")
-    @JsonBackReference
+    @JsonBackReference(value = "answer-subanswer")
     public AnswerTemplate getAnswerTemplate() {
         return answerTemplate;
     }

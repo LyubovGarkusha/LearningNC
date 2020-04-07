@@ -17,7 +17,7 @@ public class User {
 
     @Basic
     @OneToMany(mappedBy = "answerTemplate")
-    @JsonManagedReference
+    @JsonManagedReference(value = "user-subanswer")
     public List<AnswerSubmitted> getAnswerSubmittedList() {
         return answerSubmittedList;
     }
@@ -27,6 +27,7 @@ public class User {
     }
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     public long getId() {
         return id;
@@ -59,7 +60,7 @@ public class User {
 
     @Basic
     @OneToOne( mappedBy = "user")
-    @JsonManagedReference
+    @JsonManagedReference(value = "user-login")
     public Login getLogin() {
         return login;
     }
@@ -70,7 +71,7 @@ public class User {
 
     @Basic
     @OneToMany(mappedBy = "user")
-    @JsonManagedReference
+    @JsonManagedReference(value = "user-quiz")
     public List<Quiz> getQuizList() {
         return quizList;
     }

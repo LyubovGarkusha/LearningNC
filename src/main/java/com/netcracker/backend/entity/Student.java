@@ -1,9 +1,6 @@
 package com.netcracker.backend.entity;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Student {
@@ -13,6 +10,7 @@ public class Student {
 
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id") //@GeneratedValue
     public long getId() {
         return id;

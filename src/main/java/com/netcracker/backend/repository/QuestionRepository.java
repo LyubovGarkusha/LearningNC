@@ -9,4 +9,5 @@ import java.util.List;
 @Repository
 public interface QuestionRepository extends CrudRepository<Question,Long> {
     public List<Question> findAllByQuizId(long quizId);
+    public Question findById(long questionId);
 }
