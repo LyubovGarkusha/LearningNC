@@ -1,92 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfb8408d-0471-483f-b585-4ba063d054ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77757a3e-9c3f-470e-8b54-5221f02d13d9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77757a3e-9c3f-470e-8b54-5221f02d13d9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/controller/AnswerTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/controller/AnswerTemplateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/AnswerSubmitted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/AnswerSubmitted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/AnswerTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/AnswerTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/repository/AnswerTemplateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/repository/AnswerTemplateRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/repository/QuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/repository/QuestionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/AnswerTemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/AnswerTemplateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/impl/AnswerTemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/impl/AnswerTemplateServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/impl/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/impl/QuestionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netcracker/backend/controller/AnswerTemplateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netcracker/backend/controller/AnswerTemplateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netcracker/backend/entity/AnswerSubmitted.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netcracker/backend/entity/AnswerSubmitted.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netcracker/backend/entity/AnswerTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netcracker/backend/entity/AnswerTemplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netcracker/backend/entity/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netcracker/backend/entity/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netcracker/backend/entity/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netcracker/backend/entity/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netcracker/backend/entity/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netcracker/backend/entity/Quiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netcracker/backend/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netcracker/backend/entity/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netcracker/backend/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netcracker/backend/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netcracker/backend/repository/QuestionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netcracker/backend/repository/QuestionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netcracker/backend/service/AnswerTemplateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netcracker/backend/service/AnswerTemplateService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netcracker/backend/service/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netcracker/backend/service/QuestionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netcracker/backend/service/impl/AnswerTemplateServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netcracker/backend/service/impl/AnswerTemplateServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/netcracker/backend/service/impl/QuestionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/netcracker/backend/service/impl/QuestionServiceImpl.class" afterDir="false" />
+    <list default="true" id="516a3ea1-43a9-45ed-a972-1bb7631be3f7" name="Default Changelist" comment="fapi getAll, backend add answer template to question, server are working">
+      <change afterPath="$PROJECT_DIR$/NC/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NC/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NC/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/.idea/dataSources/77757a3e-9c3f-470e-8b54-5221f02d13d9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NC/.idea/dataSources/77757a3e-9c3f-470e-8b54-5221f02d13d9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NC/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NC/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/AnswerTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/AnswerTemplateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/AnswerSubmitted.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/AnswerSubmitted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/AnswerTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/AnswerTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/repository/AnswerTemplateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/repository/AnswerTemplateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/repository/QuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/repository/QuestionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/AnswerTemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/AnswerTemplateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/impl/AnswerTemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/impl/AnswerTemplateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/impl/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/impl/QuestionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/controller/AnswerTemplateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/controller/AnswerTemplateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/AnswerSubmitted.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/AnswerSubmitted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/AnswerTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/AnswerTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Quiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/repository/QuestionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/repository/QuestionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/AnswerTemplateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/AnswerTemplateService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/QuestionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/impl/AnswerTemplateServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/impl/AnswerTemplateServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/impl/QuestionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/impl/QuestionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/../fapi/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="backend: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-    </expand>
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="backend" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/controller/AnswerTemplateController.java">
+        <entry file="file://$PROJECT_DIR$/frontend/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="-272">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-111">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/AnswerSubmitted.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1309#1310#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/AnswerTemplateController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,293 +113,78 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/AnswerTemplate.java">
+        <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/AnswerSubmitted.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Quiz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://77757a3e-9c3f-470e-8b54-5221f02d13d9/schema/backend/table/answer_submitted">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://77757a3e-9c3f-470e-8b54-5221f02d13d9/schema/backend/table/answer_template">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://77757a3e-9c3f-470e-8b54-5221f02d13d9/schema/backend/table/quiz">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="das://77757a3e-9c3f-470e-8b54-5221f02d13d9/schema/backend/table/question">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+            <state relative-caret-position="34">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/NC" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../pom.xml" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/controllers/AnswerTemplateController.java" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/entity/Student.java" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/services/AnswerTemplate.java" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/services/AnswerTemplareService.java" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/FapiApplication.java" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/entity/Question.java" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/entity/Login.java" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/entity/AnswerTemplate.java" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/entity/AnswerSubmitted.java" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/services/AnswerTemplateService.java" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/services/impl/AnswerTemplateServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/controllers/AnswerTemplateController.java" />
-        <option value="$PROJECT_DIR$/../fapi/pom.xml" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/enums/Theme.java" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/entity/Quiz.java" />
-        <option value="$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/AnswerTemplateService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/controller/QuestionController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/repository/QuestionRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/QuestionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/impl/QuestionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/impl/AnswerTemplateServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/repository/AnswerTemplateRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/controller/AnswerTemplateController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Question.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/AnswerTemplate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/AnswerSubmitted.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Quiz.java" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/NC/.gitignore" />
+        <option value="$PROJECT_DIR$/frontend/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="17" />
-    <option name="width" value="785" />
-    <option name="height" value="580" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="553" />
+    <option name="y" value="33" />
+    <option name="width" value="826" />
+    <option name="height" value="706" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NC" type="462c0819:PsiDirectoryNode" />
+              <item name="netcracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netcracker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="netcracker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netcracker" type="462c0819:PsiDirectoryNode" />
+              <item name="fapi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="backend" type="58d84e3e:PackageViewProjectNode" />
-              <item name="NC" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="backend" type="58d84e3e:PackageViewProjectNode" />
-              <item name="NC" type="616d4139:PackageViewModuleNode" />
-              <item name="com.netcracker.backend" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="backend" type="58d84e3e:PackageViewProjectNode" />
-              <item name="NC" type="616d4139:PackageViewModuleNode" />
-              <item name="com.netcracker.backend" type="1f31426a:PackageElementNode" />
-              <item name="controller" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="backend" type="58d84e3e:PackageViewProjectNode" />
-              <item name="NC" type="616d4139:PackageViewModuleNode" />
-              <item name="com.netcracker.backend" type="1f31426a:PackageElementNode" />
-              <item name="entity" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="backend" type="58d84e3e:PackageViewProjectNode" />
-              <item name="NC" type="616d4139:PackageViewModuleNode" />
-              <item name="com.netcracker.backend" type="1f31426a:PackageElementNode" />
-              <item name="enums" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="backend" type="58d84e3e:PackageViewProjectNode" />
-              <item name="NC" type="616d4139:PackageViewModuleNode" />
-              <item name="com.netcracker.backend" type="1f31426a:PackageElementNode" />
-              <item name="repository" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="backend" type="58d84e3e:PackageViewProjectNode" />
-              <item name="NC" type="616d4139:PackageViewModuleNode" />
-              <item name="com.netcracker.backend" type="1f31426a:PackageElementNode" />
-              <item name="service" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="backend" type="58d84e3e:PackageViewProjectNode" />
-              <item name="NC" type="616d4139:PackageViewModuleNode" />
-              <item name="com.netcracker.backend" type="1f31426a:PackageElementNode" />
-              <item name="service" type="1f31426a:PackageElementNode" />
-              <item name="impl" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586216194584" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586298795761" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.netcracker.fapi.services" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Valeriy\Documents\Study\fapi\src\main\java\com\netcracker\fapi" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Valeriy\Documents\Study\netcracker" />
     </key>
   </component>
   <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -392,133 +195,49 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.08809892" />
-  </component>
-  <component name="RunManager" selected="Spring Boot.BackendApplication">
-    <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="NC" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.netcracker.backend.BackendApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FapiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="fapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.netcracker.fapi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.netcracker.fapi.FapiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.FapiApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\Valeriy\AppData\Roaming\Subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
-    <task id="Default" summary="Default task">
-      <changelist id="dfb8408d-0471-483f-b585-4ba063d054ab" name="Default Changelist" comment="" />
-      <created>1584721448874</created>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="516a3ea1-43a9-45ed-a972-1bb7631be3f7" name="Default Changelist" comment="" />
+      <created>1586217214235</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585749140741</updated>
-      <workItem from="1584721468494" duration="2078000" />
-      <workItem from="1585132579801" duration="19860000" />
-      <workItem from="1585217009826" duration="15670000" />
-      <workItem from="1585296117211" duration="986000" />
-      <workItem from="1585297898041" duration="61381000" />
-      <workItem from="1585748971119" duration="170000" />
-    </task>
-    <task active="true" id="LOCAL-00001" summary="Revert: all entities are created, all links for database are working, entities are mapped">
-      <created>1585749140713</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1585749140886</updated>
-      <workItem from="1585749141314" duration="262000" />
-      <workItem from="1585749462618" duration="109000" />
-      <workItem from="1585749633128" duration="251000" />
-      <workItem from="1585749902390" duration="32817000" />
-      <workItem from="1586098810594" duration="10530000" />
+      <updated>1586217214235</updated>
+      <workItem from="1586217226215" duration="5502000" />
+      <workItem from="1586266096075" duration="13842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43942000" />
+    <option name="totallyTimeSpent" value="19344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="17" width="785" height="580" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.81265825" visible="true" weight="0.23172414" />
-      <window_info id="Structure" order="1" sideWeight="0.18734178" side_tool="true" weight="0.22239032" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.502439" side_tool="true" weight="0.21331316" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" weight="0.2569558" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6134645" weight="0.3535188" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4091653" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49848714" weight="0.3535188" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" visible="true" weight="0.45861298" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.38653556" side_tool="true" weight="0.3747954" />
-      <window_info anchor="bottom" id="Spring" order="12" sideWeight="0.4987874" weight="0.4762684" />
-      <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.4987874" weight="0.32569557" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" sideWeight="0.4995958" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.60137933" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23600605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.31096563" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4091653" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32984293" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49848714" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" weight="0.34369886" />
-      <window_info anchor="bottom" id="Spring" order="12" sideWeight="0.4987874" weight="0.4762684" />
-      <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.4987874" weight="0.3270142" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" sideWeight="0.4995958" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32938388" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32885906" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3797054" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -527,541 +246,127 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info active="true" anchor="right" id="Database" order="8" visible="true" weight="0.22844176" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
-    </layout-to-restore>
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <MESSAGE value="fapi getAll, backend add answer template to question, server are working" />
+    <option name="LAST_COMMIT_MESSAGE" value="fapi getAll, backend add answer template to question, server are working" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NC.iml">
+    <entry file="file://$PROJECT_DIR$/$HOME/vendor/node_modules/ng">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/$HOME/vendor/node_modules/ng.cmd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/impl/AnswerSubmittedServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/77757a3e-9c3f-470e-8b54-5221f02d13d9/console.sql">
+    <entry file="file://$PROJECT_DIR$/$HOME/vendor/node_modules/ng.ps1">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
+    <entry file="file://$PROJECT_DIR$/$HOME/vendor/node_modules/node_modules/@angular/cli/bin/ng">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="27" selection-start-line="27" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/cli/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../pom.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/node_modules/request/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="-1547">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="uml://DATABASE/77757a3e-9c3f-470e-8b54-5221f02d13d9.SCHEMA:backend">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>77757a3e-9c3f-470e-8b54-5221f02d13d9.SCHEMA:backend</OriginalElement>
-          <nodes>
-            <node x="51.33333333333334" y="0.0">77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.user</node>
-            <node x="475.03125" y="0.0">77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.student</node>
-            <node x="225.0" y="147.0">77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.quiz</node>
-            <node x="149.78125" y="404.0">77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.question</node>
-            <node x="203.53125" y="595.0">77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.answer_template</node>
-            <node x="40.0" y="151.38175046554935">77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.login</node>
-            <node x="147.44791666666669" y="742.0">77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.answer_submitted</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.answer_submitted" target="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.user">
-              <point x="-70.5" y="-81.5" />
-              <point x="170.94791666666669" y="717.0" />
-              <point x="29.5" y="717.0" />
-              <point x="29.5" y="122.0" />
-              <point x="76.33333333333334" y="122.0" />
-              <point x="-50.0" y="48.5" />
-            </edge>
-            <edge source="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.question" target="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.quiz">
-              <point x="0.0" y="-70.5" />
-              <point x="245.28125" y="379.0" />
-              <point x="273.5" y="379.0" />
-              <point x="-48.5" y="103.5" />
-            </edge>
-            <edge source="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.answer_submitted" target="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.answer_template">
-              <point x="23.5" y="-81.5" />
-              <point x="264.9479166666667" y="717.0" />
-              <point x="297.53125" y="717.0" />
-              <point x="0.0" y="48.5" />
-            </edge>
-            <edge source="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.answer_submitted" target="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.question">
-              <point x="-23.5" y="-81.5" />
-              <point x="217.94791666666669" y="717.0" />
-              <point x="193.03125" y="717.0" />
-              <point x="193.03125" y="570.0" />
-              <point x="197.53125" y="570.0" />
-              <point x="-47.75" y="70.5" />
-            </edge>
-            <edge source="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.answer_template" target="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.question">
-              <point x="0.0" y="-48.5" />
-              <point x="297.53125" y="570.0" />
-              <point x="293.03125" y="570.0" />
-              <point x="47.75" y="70.5" />
-            </edge>
-            <edge source="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.quiz" target="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.user">
-              <point x="0.0" y="-103.5" />
-              <point x="322.0" y="122.0" />
-              <point x="176.33333333333334" y="122.0" />
-              <point x="50.0" y="48.5" />
-            </edge>
-            <edge source="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.login" target="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.user">
-              <point x="0.0" y="-59.5" />
-              <point x="122.5" y="122.0" />
-              <point x="126.33333333333334" y="122.0" />
-              <point x="0.0" y="48.5" />
-            </edge>
-            <edge source="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.answer_submitted" target="77757a3e-9c3f-470e-8b54-5221f02d13d9.TABLE:backend.quiz">
-              <point x="70.5" y="-81.5" />
-              <point x="311.9479166666667" y="717.0" />
-              <point x="402.03125" y="717.0" />
-              <point x="402.03125" y="379.0" />
-              <point x="370.5" y="379.0" />
-              <point x="48.499999999999986" y="103.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.5805405405405405" x="197.0" y="937.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/controllers/AnswerTemplateController.java" />
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/entity/Student.java" />
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/services/AnswerTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/services/AnswerTemplareService.java" />
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/services/impl/AnswerTemplateService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/BackendApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="60" />
-          <folding>
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/FapiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="57" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/services/AnswerTemplateService.java">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/services/impl/AnswerTemplateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#469#492#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/enums/Role.java">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/enums/TypeQuestion.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/enums/Theme.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/entity/AnswerSubmitted.java">
+    <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/entity/AnswerTemplate.java">
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="-272">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/entity/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/entity/Quiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1993#1994#0" expanded="true" />
-            <element signature="e#2020#2021#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/entity/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.10.RELEASE/spring-data-commons-2.0.10.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../fapi/src/main/java/com/netcracker/fapi/controllers/AnswerTemplateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/impl/AnswerTemplateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/repository/QuestionRepository.java">
+    <entry file="file://$PROJECT_DIR$/NC/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/QuestionService.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/impl/QuestionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/repository/AnswerTemplateRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="-111">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/controller/QuestionController.java">
+    <entry file="file://$PROJECT_DIR$/frontend/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="799">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/service/AnswerTemplateService.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/controller/AnswerTemplateController.java">
+    <entry file="file://$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/AnswerSubmitted.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="121">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/AnswerTemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="84" column="47" selection-start-line="84" selection-start-column="47" selection-end-line="84" selection-end-column="47" />
-          <folding>
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/AnswerTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/AnswerSubmitted.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="53" column="48" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/netcracker/backend/entity/Quiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://77757a3e-9c3f-470e-8b54-5221f02d13d9/schema/backend/table/answer_submitted">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://77757a3e-9c3f-470e-8b54-5221f02d13d9/schema/backend/table/answer_template">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://77757a3e-9c3f-470e-8b54-5221f02d13d9/schema/backend/table/quiz">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://77757a3e-9c3f-470e-8b54-5221f02d13d9/schema/backend/table/question">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>NC:Web exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web (NC)|Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-sdk-2.13.1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
+      <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>NC</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
