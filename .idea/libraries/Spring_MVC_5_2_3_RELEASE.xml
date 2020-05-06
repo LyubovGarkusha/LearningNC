@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Spring MVC-5.2.3.RELEASE" type="spring-mvc">
+    <properties version="5.2.3.RELEASE" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/spring-webmvc-5.2.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-web-5.2.3.RELEASE.jar!/" />
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/backend/src/main/java" />
+      <root url="file://$PROJECT_DIR$/fapi/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

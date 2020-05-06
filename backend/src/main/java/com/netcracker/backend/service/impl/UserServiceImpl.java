@@ -1,16 +1,16 @@
 package com.netcracker.backend.service.impl;
 
-import com.netcracker.backend.entity.Student;
 import com.netcracker.backend.entity.User;
-import com.netcracker.backend.repository.StudentRepository;
 import com.netcracker.backend.repository.UserRepository;
 import com.netcracker.backend.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 
 @Component
+@Transactional
 public class UserServiceImpl implements UserService {
 
     @Autowired

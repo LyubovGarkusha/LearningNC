@@ -1,0 +1,42 @@
+
+<div class="upper">
+  <div class="row">
+
+    <div class="col">
+
+      <h4>Quizzes List:</h4>
+
+      <table class="table">
+        <thead class="header">
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Url</th>
+          <th scope="col">Theme</th>
+          <th scope="col"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let quiz of quizzes">
+          <td scope="row">{{quiz.id}}</td>
+          <td>{{quiz.url}}</td>
+          <td>{{quiz.quizTheme}}</td>
+          <td>{{quiz.timer}}</td>
+          <td><button (click)="_deleteQuiz(quiz.id)">Delete</button></td>
+        </tr>
+
+        </tbody>
+      </table>
+
+      <button onclick="">Add new quiz</button>
+      <div>
+        <p>Quizzes count: {{quizzes ? quizzes.length : 0}}</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+
+

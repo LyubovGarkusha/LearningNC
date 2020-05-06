@@ -14,6 +14,7 @@ public class Question {
     private Boolean nessesary;
     private Quiz quiz;
     private List<AnswerTemplate> answerTemplates;
+    //@JsonIgnoreProperties("question")
     private List<AnswerSubmitted> answerSubmittedList;
 
     @Basic

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Spring Batch-2.2.6" type="spring-batch">
+    <properties version="2.2.6" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/spring-batch-infrastructure-2.2.6.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-batch-core-2.2.6.RELEASE.jar!/" />
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/backend/src/main/java" />
+      <root url="file://$PROJECT_DIR$/fapi/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

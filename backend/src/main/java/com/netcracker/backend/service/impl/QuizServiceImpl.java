@@ -5,10 +5,12 @@ import com.netcracker.backend.repository.QuizRepository;
 import com.netcracker.backend.service.QuizService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
 @Component
+@Transactional
 public class QuizServiceImpl implements QuizService {
 
     @Autowired
@@ -19,4 +21,16 @@ public class QuizServiceImpl implements QuizService {
         return quizRepository.findAll();
     }
 
+    @Override
+    public void deleteQuiz(long id){
+        quizRepository.deleteQuizById(id);
+    }
+    @Override
+    public Quiz add(Quiz quiz){
+        return quizRepository.save(quiz);
+    }
+    @Override
+    public Quiz getQuizById(long id) {
+        return quizRepository.findQuizById(id);
+    }
 }

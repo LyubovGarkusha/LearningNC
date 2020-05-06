@@ -56,7 +56,7 @@ public class AnswerSubmitted {
         return user;
     }
 
-    public void setUser(User userId) {
+    public void setUser(User user) {
         this.user = user;
     }
 

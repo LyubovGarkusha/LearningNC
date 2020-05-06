@@ -9,5 +9,4 @@ import java.util.List;
 @Repository
 public interface AnswerTemplateRepository extends CrudRepository<AnswerTemplate, Long> {
     public List<AnswerTemplate> findAllByQuestionId(long questionId);
-
 }

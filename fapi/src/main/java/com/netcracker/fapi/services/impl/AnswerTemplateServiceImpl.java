@@ -19,7 +19,19 @@ public class AnswerTemplateServiceImpl implements AnswerTemplateService {
     public List<AnswerTemplate> getAnswersForQuestion(long idQuestion){
         RestTemplate restTemplate = new RestTemplate();
         AnswerTemplate[] answerTemplates = restTemplate.getForObject(backendUrl + "/api/question/" + idQuestion, AnswerTemplate[].class);
-
         return Arrays.asList(answerTemplates);
     }
+
+//    @Override
+//    public AnswerTemplate addAnswerTemplate(AnswerTemplate answerTemplate){
+//        RestTemplate restTemplate = new RestTemplate();
+//        AnswerTemplate[] answerTemplates = restTemplate.getForObject(backendUrl + "")
+//    }
+
+
+//    @Override
+//    public List<AnswerTemplate> deleteAnswerForQuestion(long idAnswer){
+//
+//    }
+
 }

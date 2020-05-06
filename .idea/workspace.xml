@@ -2,45 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="516a3ea1-43a9-45ed-a972-1bb7631be3f7" name="Default Changelist" comment="fapi getAll, backend add answer template to question, server are working">
-      <change afterPath="$PROJECT_DIR$/NC/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NC/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NC/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/.idea/dataSources/77757a3e-9c3f-470e-8b54-5221f02d13d9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NC/.idea/dataSources/77757a3e-9c3f-470e-8b54-5221f02d13d9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NC/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NC/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NC/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/AnswerTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/AnswerTemplateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/AnswerSubmitted.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/AnswerSubmitted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/AnswerTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/AnswerTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/repository/AnswerTemplateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/repository/AnswerTemplateRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/repository/QuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/repository/QuestionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/AnswerTemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/AnswerTemplateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/impl/AnswerTemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/impl/AnswerTemplateServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/impl/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/service/impl/QuestionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/controller/AnswerTemplateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/controller/AnswerTemplateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/AnswerSubmitted.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/AnswerSubmitted.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/AnswerTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/AnswerTemplate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Quiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/repository/QuestionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/repository/QuestionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/AnswerTemplateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/AnswerTemplateService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/QuestionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/impl/AnswerTemplateServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/impl/AnswerTemplateServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/impl/QuestionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/NC/target/classes/com/netcracker/backend/service/impl/QuestionServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/netcracker_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/31a51221-3d4f-4759-aa92-f7494be0f894.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Batch_2_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Data_JPA_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Integration_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Security_5_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Web_Services_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Webflow_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/querries.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fapi/fapi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/front.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/proxy.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/modules/footer/components/footer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/modules/footer/components/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/modules/footer/components/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/modules/footer/footer.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/modules/layout/components/quizzes-panel/quizzes-panel-view.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/modules/layout/components/quizzes-panel/quizzes-panel-view.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/modules/layout/layout.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/modules/quiz/components/details/quiz-details.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/modules/quiz/components/details/quiz-details.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/modules/quiz/components/details/quiz-details.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/modules/quiz/models/quiz.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/modules/quiz/quiz.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/app/services/quiz.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/netcracker/backend/BackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/netcracker/backend/BackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/netcracker/backend/controller/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/netcracker/backend/controller/QuizController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/netcracker/backend/repository/AnswerTemplateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/netcracker/backend/repository/AnswerTemplateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/netcracker/backend/repository/QuizRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/netcracker/backend/repository/QuizRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/netcracker/backend/service/QuizService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/netcracker/backend/service/QuizService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/netcracker/backend/service/impl/QuizServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/netcracker/backend/service/impl/QuizServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/src/main/java/com/netcracker/fapi/entity/AnswerTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/fapi/src/main/java/com/netcracker/fapi/entity/AnswerTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/src/main/java/com/netcracker/fapi/services/AnswerTemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fapi/src/main/java/com/netcracker/fapi/services/AnswerTemplateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/src/main/java/com/netcracker/fapi/services/impl/AnswerTemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fapi/src/main/java/com/netcracker/fapi/services/impl/AnswerTemplateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/target/classes/com/netcracker/fapi/FapiApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/target/classes/com/netcracker/fapi/controllers/AnswerTemplateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/target/classes/com/netcracker/fapi/entity/AnswerSubmitted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/target/classes/com/netcracker/fapi/entity/AnswerTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/target/classes/com/netcracker/fapi/entity/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/target/classes/com/netcracker/fapi/entity/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/target/classes/com/netcracker/fapi/entity/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/target/classes/com/netcracker/fapi/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/target/classes/com/netcracker/fapi/enums/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/target/classes/com/netcracker/fapi/enums/Theme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/target/classes/com/netcracker/fapi/enums/TypeQuestion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/target/classes/com/netcracker/fapi/services/AnswerTemplateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/target/classes/com/netcracker/fapi/services/impl/AnswerTemplateServiceImpl.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,83 +84,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/AnswerSubmitted.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1309#1310#0" expanded="true" />
-                <element signature="e#1341#1342#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/AnswerTemplateController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/NC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -153,13 +131,34 @@
         <subPane>
           <expand>
             <path>
-              <item name="netcracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netcracker" type="462c0819:PsiDirectoryNode" />
+              <item name="NC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="netcracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netcracker" type="462c0819:PsiDirectoryNode" />
-              <item name="fapi" type="462c0819:PsiDirectoryNode" />
+              <item name="NC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NC" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NC" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NC" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NC" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,24 +207,23 @@
       <updated>1586217214235</updated>
       <workItem from="1586217226215" duration="5502000" />
       <workItem from="1586266096075" duration="13842000" />
+      <workItem from="1587719180940" duration="72000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19344000" />
+    <option name="totallyTimeSpent" value="19416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23600605" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2397882" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32984293" />
@@ -238,6 +236,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3797054" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -246,7 +245,7 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,36 +256,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="fapi getAll, backend add answer template to question, server are working" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/$HOME/vendor/node_modules/ng">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/$HOME/vendor/node_modules/ng.cmd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/$HOME/vendor/node_modules/ng.ps1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/$HOME/vendor/node_modules/node_modules/@angular/cli/bin/ng">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="27" selection-start-line="27" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@angular/cli/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/request/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1547">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/$HOME/vendor/node_modules/ng" />
+    <entry file="file://$PROJECT_DIR$/$HOME/vendor/node_modules/ng.cmd" />
+    <entry file="file://$PROJECT_DIR$/$HOME/vendor/node_modules/ng.ps1" />
+    <entry file="file://$PROJECT_DIR$/$HOME/vendor/node_modules/node_modules/@angular/cli/bin/ng" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/cli/package.json" />
+    <entry file="file://$PROJECT_DIR$/node_modules/request/package.json" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -294,73 +269,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NC/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/AnswerSubmitted.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/AnswerTemplateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/frontend/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/frontend/package.json" />
+    <entry file="file://$PROJECT_DIR$/NC/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html" />
+    <entry file="file://$PROJECT_DIR$/frontend/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/entity/AnswerSubmitted.java" />
+    <entry file="file://$PROJECT_DIR$/NC/src/main/java/com/netcracker/backend/controller/AnswerTemplateController.java" />
   </component>
   <component name="masterDetails">
     <states>

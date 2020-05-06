@@ -16,7 +16,7 @@ public class User {
     private List<AnswerSubmitted> answerSubmittedList;
 
     @Basic
-    @OneToMany(mappedBy = "answerTemplate")
+    @OneToMany(mappedBy = "user")
     @JsonManagedReference(value = "user-subanswer")
     public List<AnswerSubmitted> getAnswerSubmittedList() {
         return answerSubmittedList;

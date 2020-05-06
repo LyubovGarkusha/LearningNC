@@ -3,7 +3,7 @@ package com.netcracker.fapi.entity;
 import java.util.List;
 
 
-public class AnswerTemplate {
+public class  AnswerTemplate {
     private long id;
     private String answerText;
     private Question question;
