@@ -9,4 +9,5 @@ import java.util.List;
 @Repository
 public interface LoginRepository extends CrudRepository <Login, Long> {
     public List<Login> findAll();
+    public Login findByEmail(String email);
 }

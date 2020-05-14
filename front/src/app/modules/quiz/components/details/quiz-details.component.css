@@ -1,8 +1,8 @@
 .upper{
-  position: fixed;
-  top: 70px;
+  position: relative;
+  width: 80%;
   right: 10%;
-  left: 20%;
+  left: 10%;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
   min-height: 30px;
   background: rgba(234, 179, 255, 0.3);

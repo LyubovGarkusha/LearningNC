@@ -12,6 +12,19 @@ public class Question {
     private List<AnswerTemplate> answerTemplates;
     private List<AnswerSubmitted> answerSubmittedList;
 
+    public Question(long id, String description, String questionType, Boolean nessesary, Quiz quiz, List<AnswerTemplate> answerTemplates, List<AnswerSubmitted> answerSubmittedList) {
+        this.id = id;
+        this.description = description;
+        this.questionType = questionType;
+        this.nessesary = nessesary;
+        this.quiz = quiz;
+        this.answerTemplates = answerTemplates;
+        this.answerSubmittedList = answerSubmittedList;
+    }
+
+    public Question(){
+
+    }
 
     public List<AnswerSubmitted> getAnswerSubmittedList() {
         return answerSubmittedList;

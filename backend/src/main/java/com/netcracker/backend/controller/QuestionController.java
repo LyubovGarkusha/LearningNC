@@ -11,14 +11,14 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/quiz")
+@RequestMapping("api/")
 public class QuestionController {
 
     @Autowired
     private QuestionService questionService;
 
-    @RequestMapping(value = "/{quizId}", method = RequestMethod.GET)
-    public List<Question> getQuestionsForQuize(@PathVariable(name = "quizId") int quizId){
+    @RequestMapping(value = "quiz/{quizId}/question/all/", method = RequestMethod.GET)
+    public List<Question> getQuestionsForQuiz(@PathVariable(name = "quizId") int quizId){
         return questionService.getQuestionsForQuiz(quizId);
     }
 

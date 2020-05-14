@@ -7,6 +7,17 @@ public class Login {
     private String email;
     private User user;
 
+    public Login(long id, String password, String email, User user) {
+        this.id = id;
+        this.password = password;
+        this.email = email;
+        this.user = user;
+    }
+
+    public Login(){
+
+    }
+
     public long getId() {
         return id;
     }

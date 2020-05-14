@@ -9,4 +9,6 @@ import java.util.ArrayList;
 @Repository
 public interface UserRepository extends CrudRepository<User, Long> {
     ArrayList<User> findAll();
+    User findById(long id);
+
 }

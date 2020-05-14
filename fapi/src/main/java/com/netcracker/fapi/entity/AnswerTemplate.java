@@ -9,6 +9,16 @@ public class  AnswerTemplate {
     private Question question;
     private List<AnswerSubmitted> answerSubmittedList;
 
+    public AnswerTemplate(long id, String answerText, Question question, List<AnswerSubmitted> answerSubmittedList) {
+        this.id = id;
+        this.answerText = answerText;
+        this.question = question;
+        this.answerSubmittedList = answerSubmittedList;
+    }
+
+    public AnswerTemplate(){
+
+    }
 
     public List<AnswerSubmitted> getAnswerSubmittedList() {
         return answerSubmittedList;

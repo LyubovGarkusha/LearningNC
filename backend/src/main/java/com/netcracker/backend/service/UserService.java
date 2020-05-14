@@ -8,4 +8,5 @@ import java.util.ArrayList;
 @Component
 public interface UserService {
    public ArrayList<User> getAllUsers();
+   public User getUserById(long id);
 }

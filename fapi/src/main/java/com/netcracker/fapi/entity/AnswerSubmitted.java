@@ -9,6 +9,19 @@ public class AnswerSubmitted {
     private Question question;
     private Quiz quiz;
 
+    public AnswerSubmitted(long id, User user, String answerText, AnswerTemplate answerTemplate, Question question, Quiz quiz) {
+        this.id = id;
+        this.user = user;
+        this.answerText = answerText;
+        this.answerTemplate = answerTemplate;
+        this.question = question;
+        this.quiz = quiz;
+    }
+
+    public AnswerSubmitted(){
+
+    }
+
 
     public Question getQuestion() {
         return question;

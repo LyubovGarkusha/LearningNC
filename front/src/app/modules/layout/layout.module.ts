@@ -4,21 +4,28 @@ import {QuizzesPanelViewComponent} from './components/quizzes-panel/quizzes-pane
 import {QuizModule} from '../quiz/quiz.module';
 import {AppFooterModule} from '../footer/footer.module';
 import {AppHeaderModule} from '../header/header.module';
+import {QuizEditViewComponent} from './components/quiz-edit/quiz-edit-view.component';
+import {LoginComponent} from './components/login/login.component';
+import {LoginModule} from '../login/login.module';
 
 @NgModule({
   declarations: [
-    QuizzesPanelViewComponent
+    QuizzesPanelViewComponent,
+    QuizEditViewComponent,
+    LoginComponent
   ],
   imports: [
     QuizModule,
     AppHeaderModule,
     AppFooterModule,
-    QuizModule,
+    LoginModule,
     RouterModule
   ],
   providers: [],
   exports: [
-    QuizzesPanelViewComponent
+    QuizzesPanelViewComponent,
+    QuizEditViewComponent,
+    LoginComponent
   ]
 })
 export class LayoutModule {}

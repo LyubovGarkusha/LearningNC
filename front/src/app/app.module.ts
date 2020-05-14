@@ -6,7 +6,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {RouterModule, Routes} from '@angular/router';
 import {LayoutModule} from './modules/layout/layout.module';
-import {QuizzesPanelViewComponent} from './modules/layout/components/quizzes-panel/quizzes-panel-view.component';
+import {UserService} from './services/user.service';
+import {APIInterceptor} from './interceptors/api-interceptor';
+import {HTTP_INTERCEPTORS} from '@angular/common/http';
 
 
 
@@ -21,7 +23,11 @@ import {QuizzesPanelViewComponent} from './modules/layout/components/quizzes-pan
     LayoutModule,
     RouterModule
   ],
-  providers: [],
+  providers: [UserService, APIInterceptor, {
+    provide: HTTP_INTERCEPTORS,
+    useClass: APIInterceptor,
+    multi: true
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

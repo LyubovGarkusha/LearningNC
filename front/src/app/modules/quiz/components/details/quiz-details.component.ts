@@ -31,8 +31,6 @@ export class QuizDetailsComponent implements OnInit {
     this.subscriptions.push(this.quizService.getAllQuizzes().subscribe(quizzes => {
       // Parse json response into local array
       this.quizzes = quizzes as Quiz[];
-      // Check data in console
-      console.log(this.quizzes); // don't use console.log in angular :)
     }));  // --------------- подписка на событие
   }
   public _updateQuizList(): void {
@@ -50,6 +48,8 @@ export class QuizDetailsComponent implements OnInit {
     }));
   }
 
-
+  public goQuizEdit(id: string): void{
+    this.router.navigate(['quiz/1']);
+  }
 
 }

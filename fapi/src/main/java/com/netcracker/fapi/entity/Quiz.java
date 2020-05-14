@@ -11,6 +11,7 @@ import java.util.List;
 public class Quiz {
     private long id;
     private String url;
+    private String quizName;
     private boolean shared;
     private Time timer;
     private Theme quizTheme;
@@ -19,6 +20,23 @@ public class Quiz {
     private Date lastModifyDate;
     private List<Question> questionList;
     private List<AnswerSubmitted> answerSubmittedList;
+
+    public Quiz(long id, String url, String quizName, boolean shared, Time timer, Theme quizTheme, User user, Date creationDate, Date lastModifyDate, List<Question> questionList, List<AnswerSubmitted> answerSubmittedList) {
+        this.id = id;
+        this.url = url;
+        this.quizName = quizName;
+        this.shared = shared;
+        this.timer = timer;
+        this.quizTheme = quizTheme;
+        this.user = user;
+        this.creationDate = creationDate;
+        this.lastModifyDate = lastModifyDate;
+        this.questionList = questionList;
+        this.answerSubmittedList = answerSubmittedList;
+    }
+
+    public Quiz() {
+    }
 
 
     public List<AnswerSubmitted> getAnswerSubmittedList() {
@@ -37,6 +55,14 @@ public class Quiz {
         this.questionList = questionList;
     }
 
+
+    public String getQuizName() {
+        return quizName;
+    }
+
+    public void setQuizName(String quizName) {
+        this.quizName = quizName;
+    }
 
     public boolean isShared() {
         return shared;

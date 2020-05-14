@@ -3,7 +3,6 @@ package com.netcracker.backend.entity;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.netcracker.backend.enums.Theme;
-import org.hibernate.annotations.ManyToAny;
 
 import javax.persistence.*;
 import java.sql.Date;
@@ -14,6 +13,7 @@ import java.util.List;
 public class Quiz {
     private long id;
     private String url;
+    private String quizName;
     private boolean shared;
     private Time timer;
     private Theme quizTheme;
@@ -44,6 +44,17 @@ public class Quiz {
     public void setQuestionList(List<Question> questionList) {
         this.questionList = questionList;
     }
+
+    @Basic
+    @Column(name = "quiz_name")
+    public String getQuizName() {
+        return quizName;
+    }
+
+    public void setQuizName(String quizName) {
+        this.quizName = quizName;
+    }
+
 
     @Basic
     @Column(name = "shared")

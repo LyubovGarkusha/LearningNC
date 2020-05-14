@@ -5,10 +5,12 @@ import {RouterModule} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 import {QuizService} from '../../services/quiz.service';
 import {QuizDetailsComponent} from './components/details/quiz-details.component';
+import {QuizEditComponent} from './components/edit/quiz-edit.component';
 
 @NgModule({
   declarations: [
-    QuizDetailsComponent
+    QuizDetailsComponent,
+    QuizEditComponent
   ],
   imports: [
     HttpClientModule,
@@ -21,7 +23,8 @@ import {QuizDetailsComponent} from './components/details/quiz-details.component'
     QuizService
   ],
   exports: [
-    QuizDetailsComponent
+    QuizDetailsComponent,
+    QuizEditComponent
   ]
 })
 export class QuizModule {

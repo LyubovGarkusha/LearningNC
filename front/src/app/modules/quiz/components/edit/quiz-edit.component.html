@@ -1,0 +1,59 @@
+<div *ngIf="isReady" class="edit-frame">
+  <button (click)="goToQuizzes()" >back</button>
+  <button (click)="goEdit()" >edit</button>
+  <form #editForm="ngForm">
+    <div class="edit-form-component">
+        <input *ngIf="editMode" class="quiz-name"  name="name"
+               [(ngModel)]="quiz.quizName" placeholder="{{quiz.quizName}}" />
+        <div *ngIf="!editMode" class="quiz-name"  name="name">
+           {{quiz.quizName}}
+        </div>
+    </div>
+    <div class="edit-form-component">
+      <input *ngIf="editMode" class="quiz-theme"  name="theme"
+             [(ngModel)]="quiz.quizTheme"  placeholder="{{quiz.quizTheme}}"/>
+      <div *ngIf="!editMode" class="quiz-theme" >
+        {{quiz.quizTheme}}
+      </div>
+    </div>
+
+    <div *ngFor="let question of quiz.questionList;let i = index;">
+      <div class="quiz-question">
+        <div class="edit-form-component">
+          <input *ngIf="editMode" class="form-control"  name="question{{i}}"
+               [(ngModel)]="question.description" placeholder="{{question.description}}"/>
+          <div *ngIf="!editMode" class="" >
+            {{question.description}}
+          </div>
+        </div>
+        <div *ngIf="question.questionType=='CHECKED'" class="quiz-answer">
+
+          <div *ngFor="let answerTemplate of question.answerTemplates;let i = index;" class="quiz-answer">
+            <input *ngIf="editMode" class=""  name="answer{{i}}"
+                   [(ngModel)]="answerTemplate.answerText" placeholder="{{answerTemplate.answerText}}"/>
+            <div *ngIf="!editMode" class="" >
+              {{answerTemplate.answerText}}
+            </div>
+          </div>
+
+        </div>
+
+        <div *ngIf="question.questionType=='TEXT'" class="quiz-answer">
+            <input *ngIf="editMode" class=""  name="text-answer" placeholder="Your answer"/>
+
+
+            <div *ngIf="!editMode" class="quiz-question" >
+
+            </div>
+        </div>
+
+        </div>
+
+      </div>
+
+  </form>
+
+
+</div>
+
+

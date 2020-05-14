@@ -14,6 +14,18 @@ public class User {
     private List<Quiz> quizList;
     private List<AnswerSubmitted> answerSubmittedList;
 
+    public User(long id, Role role, String name, Login login, List<Quiz> quizList, List<AnswerSubmitted> answerSubmittedList) {
+        this.id = id;
+        this.role = role;
+        this.name = name;
+        this.login = login;
+        this.quizList = quizList;
+        this.answerSubmittedList = answerSubmittedList;
+    }
+
+    public User(){
+
+    }
 
     public List<AnswerSubmitted> getAnswerSubmittedList() {
         return answerSubmittedList;
