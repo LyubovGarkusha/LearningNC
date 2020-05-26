@@ -10,4 +10,6 @@ import java.util.List;
 public interface LoginRepository extends CrudRepository <Login, Long> {
     public List<Login> findAll();
     public Login findByEmail(String email);
+    public Login save(Login login);
+    public Login findById(long id);
 }

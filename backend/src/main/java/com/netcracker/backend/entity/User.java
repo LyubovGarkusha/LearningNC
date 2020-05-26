@@ -59,7 +59,7 @@ public class User {
     }
 
     @Basic
-    @OneToOne( mappedBy = "user")
+    @OneToOne( mappedBy = "user", cascade=CascadeType.ALL)
     @JsonManagedReference(value = "user-login")
     public Login getLogin() {
         return login;

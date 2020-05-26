@@ -1,0 +1,88 @@
+.edit-frame{
+  position: relative;
+  top: 65px;
+}
+
+.new-quiz-container{
+  padding-top: 100px;
+  padding-left: 10%;
+}
+
+.input_name{
+  width: 40%;
+}
+
+.input_theme{
+  width: 40%;
+}
+
+.btn-plus{
+  width: 30px;
+  height: 30px;
+  background: greenyellow;
+  font-size: medium;
+  border-radius: 120px;
+}
+
+.btn-minus{
+  margin-bottom: 3%;
+  width: 30px;
+  height: 30px;
+  background: brown;
+  color: azure;
+  font-size: medium;
+  border-radius: 120px;
+}
+
+.form-group{
+  background-color: #f3fff6;
+  padding: 2%;
+  margin: 2%;
+}
+
+.quiz-name{
+  position: relative;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 135%;
+  width: 100%;
+}
+
+.quiz-theme{
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  color: midnightblue;
+}
+
+.quiz-question{
+  position: relative;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 100%;
+  width: 90%;
+  left: 5%;
+}
+
+.quiz-answer{
+  position: relative;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  width: 94%;
+  left: 3%;
+
+}
+
+.edit-form-component{
+  margin: 1%;
+  padding: 1%;
+}
+
+.question{
+  background-color: #ead8ff;
+  width: 80%;
+  padding: 2%;
+}
+

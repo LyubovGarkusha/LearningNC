@@ -15,7 +15,11 @@ export class UserService {
   }
 
   public getAuthorizedUser(): Observable<User> {
-    return this.http.get<User>('/api/user/current');
+    return this.http.get<User>('/api/users/current');
+  }
+
+  public signUpUser(user: User): Observable<User> {
+    return this.http.post<User>('/api/users/signup', user);
   }
 
 }

@@ -64,7 +64,7 @@ public class UserServiceImpl implements UserService, LoginService, UserDetailsSe
     public User save(User user) {
         user.getLogin().setPassword(bCryptPasswordEncoder.encode(user.getLogin().getPassword()));
         RestTemplate restTemplate = new RestTemplate();
-        return restTemplate.postForEntity(backendServerUrl + "/api/user", user, User.class).getBody();
+        return restTemplate.postForEntity(backendServerUrl + "/api/users/all", user, User.class).getBody();
     }
 
 }

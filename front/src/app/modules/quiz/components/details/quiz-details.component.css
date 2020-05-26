@@ -12,3 +12,72 @@
   background: rgba(255, 182, 218, 0.28);
   color: #541247;
 }
+
+.add_div{
+
+  width: fit-content;
+  height: 20px;
+  background: dimgray;
+  color: azure;
+  border: groove azure;
+  margin-left: 10%;
+  padding: 4px;
+  font-size: medium;
+  border-radius: 12px;
+}
+
+.add_div:hover{
+  color: black;
+  background: azure;
+  border: groove #57e590;
+
+}
+
+.menu{
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 25%;
+
+}
+
+.selectable:hover{
+  color: #fff6e0;
+  background-color: dimgray;
+}
+
+.div_table{
+  margin: 5% 0% 5% 5%;
+}
+
+.table_view{
+  padding-bottom: 3%;
+}
+
+.th_name{
+  padding: 2%;
+  width: 23%;
+}
+
+.th_url{
+  padding: 2%;
+  width: 30%;
+}
+
+.th_theme{
+   padding: 2%;
+   width: 20%;
+ }
+
+.th_timer{
+  padding: 2%;
+  width: 20%;
+}
+
+.td_user{
+text-align: center;
+}
+
+
+.td_delete{
+
+}

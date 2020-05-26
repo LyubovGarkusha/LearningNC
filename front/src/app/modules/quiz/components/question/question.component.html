@@ -1,0 +1,75 @@
+<ng-container class="container">
+  <form [formGroup]="options">
+    <mat-checkbox (change)="nessesaryControl($event)" [formControl]="hideRequiredControl">Required</mat-checkbox>
+    <div>
+    <label>Question type: </label>
+      <mat-radio-group (change)="radioChange($event); getReady()" [formControl]="floatLabelControl" >
+        <mat-radio-button *ngFor="let idtype of [0, 1, 2]" [value]="questionType[idtype]">
+          {{ questionType[idtype]}}</mat-radio-button>
+      </mat-radio-group>
+    </div>
+
+    <div>
+    <mat-form-field class="question_text">
+      <mat-label>Text of your question</mat-label>
+      <textarea matInput (change)="getReady()" [(ngModel)]="question.description" [ngModelOptions]="{standalone: true}" required>
+
+      </textarea>
+    </mat-form-field>
+
+      <div class="answerTemplate">
+
+        <mat-form-field *ngIf="floatLabelControl.value==questionType[0]" appearance="fill">
+          <input matInput readonly>
+        </mat-form-field>
+
+        <mat-radio-group *ngIf="floatLabelControl.value==questionType[1]"  >
+            <mat-radio-button class="answerTemplate"
+                              *ngFor= "let answer of question.answerTemplates;
+                              let i = index"
+                              value="{{i}}"
+                              disabled="true">
+              <mat-form-field>
+                <mat-label class="answerInput">Answer {{i+1}}</mat-label>
+                <textarea (change)="getReady()" matInput [(ngModel)]="answer.answerText" [ngModelOptions]="{standalone: true}" required></textarea>
+              </mat-form-field>
+              <button mat-fab color="red" aria-label="button with a delete icon" (click)="deleteAnswer(i); getReady()">
+                <mat-icon>delete</mat-icon>
+              </button>
+            </mat-radio-button>
+          <div class="button-container">
+            <button mat-mini-fab aria-label="plus one icon" (click)="addAnswerTemplate(); getReady()">
+              <mat-icon>plus_one</mat-icon>
+            </button>
+          </div>
+        </mat-radio-group>
+
+        <div  *ngIf = "floatLabelControl.value==questionType[2]">
+        <mat-checkbox *ngFor = "let answer of question.answerTemplates;
+                      let i = index"
+                      disabled="true">
+          <div class="answerInput">
+          <mat-form-field>
+            <mat-label class="answerInput">Answer {{i+1}}</mat-label>
+            <textarea (change)="getReady()" matInput [(ngModel)]="answer.answerText" [ngModelOptions]="{standalone: true}" required></textarea>
+          </mat-form-field>
+          <button mat-fab color="red" aria-label="button with a delete icon" (click)="deleteAnswer(i); getReady()">
+            <mat-icon>delete</mat-icon>
+          </button>
+          </div>
+        </mat-checkbox>
+
+        <div class="button-container">
+          <button mat-mini-fab aria-label="plus one icon" (click)="addAnswerTemplate(); getReady()">
+            <mat-icon>plus_one</mat-icon>
+          </button>
+        </div>
+
+        </div>
+
+      </div>
+    </div>
+  <button (click)="seeQuestion()">show question</button>
+  </form>
+</ng-container>
+<br>

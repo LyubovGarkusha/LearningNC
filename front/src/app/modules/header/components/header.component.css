@@ -1,4 +1,4 @@
-div {position: absolute;
+.header {position: absolute;
 top: 0;
 right: 0;
 left: 0;
@@ -7,4 +7,26 @@ box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
   min-height: 64px;
   background: #00748a;
   color: #ffffff;
+}
+
+.signUp{
+  background: indigo;
+  color: beige;
+  border-radius: 10px;
+
+}
+
+.logIn{
+  background: blanchedalmond;
+  border-radius: 10px;
+}
+
+.btns{
+  margin-left: 85%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.logOut{
+  background: silver;
+  border-radius: 10px;
 }

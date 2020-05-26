@@ -30,4 +30,10 @@ public class LoginServiceImpl implements LoginService {
         return userRepository.findById(repository.findByEmail(email).getUser().getId());
     }
 
+    @Override
+    public Login addLogin(Login login){
+
+        return repository.save(login);
+    }
+
 }

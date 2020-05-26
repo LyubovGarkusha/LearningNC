@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Quiz} from '../../models/quiz';
 import {Subscription} from 'rxjs';
 import {QuizService} from '../../../../services/quiz.service';
@@ -9,7 +9,7 @@ import {ActivatedRoute, Router} from '@angular/router';
   templateUrl: './quiz-edit.component.html',
   styleUrls: ['./quiz-edit.component.css']
 })
-export class QuizEditComponent implements OnInit {
+export class QuizEditComponent implements OnInit, OnDestroy {
 
   quiz: Quiz;
   private subscriptions: Subscription[] = [];
@@ -48,9 +48,9 @@ export class QuizEditComponent implements OnInit {
   public goEdit(): void{
     this.editMode = !this.editMode;
   }
-  // ngOnDestroy(): void {
-  //   this.subscriptions.forEach(subscription => subscription.unsubscribe());
-  // }
+  ngOnDestroy(): void {
+    this.subscriptions.forEach(subscription => subscription.unsubscribe());
+  }
 
 
 }

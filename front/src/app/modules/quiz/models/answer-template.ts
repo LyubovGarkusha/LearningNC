@@ -2,7 +2,7 @@ import {Question} from './question';
 import {AnswerSubmitted} from './answer-submitted';
 
 export class AnswerTemplate{
-  id: string;
+  id?: string;
   answerText: string;
   answerSubmittedList?: AnswerSubmitted[];
 }

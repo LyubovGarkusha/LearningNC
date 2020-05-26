@@ -1,0 +1,35 @@
+.signup{
+  padding: 15% 15% 11% 35%;
+  min-height: 40px;
+  min-width: 80px;
+  font-size: initial;
+  background-color: whitesmoke;
+  border-radius: 7px;
+}
+
+button[disabled]{
+  background-color: lightsalmon;
+}
+
+.mat-form-field{
+  width: 400px;
+}
+
+.signup-btn{
+  min-height: 40px;
+  min-width: 80px;
+  font-size: initial;
+  background-color: whitesmoke;
+  border-radius: 7px;
+}
+
+.login-form__container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 80px auto;
+}
+
+.login-form__danger-alert {
+  margin-top: 20px
+}

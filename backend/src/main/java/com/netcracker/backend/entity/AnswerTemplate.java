@@ -1,11 +1,9 @@
 package com.netcracker.backend.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import javax.persistence.*;
-import javax.validation.constraints.Max;
 import java.util.List;
 
 @Entity
@@ -16,7 +14,7 @@ public class AnswerTemplate {
     private List<AnswerSubmitted> answerSubmittedList;
 
     @Basic
-    @OneToMany(mappedBy = "answerTemplate")
+    @OneToMany(mappedBy = "answerTemplate",cascade=CascadeType.ALL)
     @JsonManagedReference(value = "answer-subanswer")
     public List<AnswerSubmitted> getAnswerSubmittedList() {
         return answerSubmittedList;

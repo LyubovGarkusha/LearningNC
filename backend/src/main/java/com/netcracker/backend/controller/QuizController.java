@@ -25,7 +25,7 @@ public class QuizController {
     }
 
     @RequestMapping(value = "/all", method = RequestMethod.POST)
-    public Quiz addAnswerTemplate(@RequestBody Quiz quiz){
+    public Quiz addQuiz(@RequestBody Quiz quiz){
         return quizService.add(quiz);
     }
 

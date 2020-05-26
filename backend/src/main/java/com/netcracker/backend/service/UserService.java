@@ -9,4 +9,5 @@ import java.util.ArrayList;
 public interface UserService {
    public ArrayList<User> getAllUsers();
    public User getUserById(long id);
+   public User addUser(User user);
 }

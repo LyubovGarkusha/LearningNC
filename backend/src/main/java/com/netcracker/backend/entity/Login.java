@@ -44,6 +44,7 @@ public class Login {
 
     @Basic
     @OneToOne(optional = false)
+    @MapsId
     @JsonBackReference(value = "user-login")
     @JoinColumn(name = "user_id")
     public User getUser() {

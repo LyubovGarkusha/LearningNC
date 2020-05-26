@@ -3,7 +3,7 @@ import {AnswerTemplate} from './answer-template';
 import {AnswerSubmitted} from './answer-submitted';
 
 export class Question{
-  id: string;
+  id?: string;
   description: string;
   questionType: string;
   nessesary: boolean;

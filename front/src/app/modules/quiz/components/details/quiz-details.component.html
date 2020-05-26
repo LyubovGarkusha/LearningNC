@@ -1,42 +1,47 @@
+<ng-container>
+<mat-tab-group class="menu">
+  <mat-tab label="My quizzes">
 
-<div class="upper">
-  <div class="row">
+      <div class="div_table">
+        <table class="table_view">
+          <thead class="header">
+          <tr>
+            <th scope="col" class="th_name">Quiz name</th>
+            <th scope="col" class="th_url">Url</th>
+            <th scope="col" class="th_theme">Theme</th>
+            <th scope="col" class="th_timer">Timer</th>
+          </tr>
+          </thead>
+          <tbody class="upper" >
+          <tr class="selectable" *ngFor="let quiz of userQuizzes" (click)="goQuizEdit(quiz.id)">
+            <td class="td_user">  {{quiz.quizName}}</td>
+            <td class="td_user">{{quiz.url}}</td>
+            <td class="td_user">{{quiz.quizTheme}}</td>
+            <td class="td_user">{{quiz.timer}}</td>
+            <td class="td_delete">
+              <button mat-fab color="primary" (click)="_deleteQuiz(quiz.id)" aria-label="Delete quiz">
+                <mat-icon>delete</mat-icon>
+              </button>
+            </td>
+          </tr>
+          </tbody>
+        </table>
 
-    <div class="col">
-
-      <h4>Quizzes List:</h4>
-
-      <table class="table">
-        <thead class="header">
-        <tr>
-          <th scope="col">Quiz name</th>
-          <th scope="col">Url</th>
-          <th scope="col">Theme</th>
-          <th scope="col"></th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr *ngFor="let quiz of quizzes">
-          <td> <a [routerLink]="['/quiz', quiz.id]">{{quiz.quizName}}</a></td>
-          <td>{{quiz.url}}</td>
-          <td>{{quiz.quizTheme}}</td>
-          <td>{{quiz.timer}}</td>
-          <td><button (click)="_deleteQuiz(quiz.id)">Delete</button></td>
-        </tr>
-
-        </tbody>
-      </table>
-
-      <!--<button (click)="goQuizEdit(id)">Add new quiz</button>-->
-      <div>
-        <p>Quizzes count: {{quizzes ? quizzes.length : 0}}</p>
+        <div>
+          <p>Quizzes count: {{userQuizzes ? userQuizzes.length : 0}}</p>
+        </div>
       </div>
 
-    </div>
-  </div>
+  </mat-tab>
+  <mat-tab label="My drafts"> Content 2 </mat-tab>
+  <!--<mat-tab label="Third"> Content 3 </mat-tab>-->
+  <mat-tab *ngIf="this.role[this.currentUser.role] == role.ADMIN" label="All quizzes">
+    All quizzes
+  </mat-tab>
+</mat-tab-group>
+  <div class="add_div" (click)="goToNewQuiz()">  Add new quiz </div>
 
-</div>
 
-
+</ng-container>
 
 

@@ -1,0 +1,63 @@
+<ng-container >
+  <div class="new-quiz-container">
+    <button class="btn btn-default" (click)="goToQuizzes()">
+      Back to quizzes
+    </button>
+<h2>New Quiz</h2>
+<form [formGroup]="myForm">
+  <div class="form">
+    <mat-form-field appearance="fill" class="input_name">
+      <mat-label>Quiz name</mat-label>
+      <input [(ngModel)]="quiz.quizName" matInput [ngModelOptions]="{standalone: true}" required >
+    </mat-form-field>
+    <br>
+  </div>
+  <div class="form">
+
+    <mat-form-field appearance="fill" class="input_theme">
+      <mat-label>Select theme</mat-label>
+      <mat-select [(value)]="quiz.quizTheme" required>
+        <mat-option *ngFor="let idtheme of [0, 1, 2]" [value]="theme[idtheme]">
+          {{ theme[idtheme] }}</mat-option>
+      </mat-select>
+      <mat-hint>Select theme of quiz</mat-hint>
+    </mat-form-field>
+
+  </div>
+  <button class="btn-plus" (click)="addQuestion()">+</button>
+
+
+    <div class="question" formArrayName="questions">
+      <div class="form-group" *ngFor="let question of myForm.get('questions')['controls']; let i = index">
+        <label>Question {{i+1}}</label>
+        <app-question [question] = quiz.questionList[i]  ></app-question>
+        <!--<mat-checkbox [formControl]="hideRequiredControl">Hide required marker</mat-checkbox>-->
+        <!--<input class="form-control" formControlName="{{i+1}}" />-->
+        <button class="btn-plus" (click)="addQuestion()">+</button>
+        <button class="btn-minus" (click)="deleteQuestion(i)">-</button>
+        <p>
+        <p>
+        <p>
+      </div>
+    </div>
+
+  <!--<div formArrayName="questions">-->
+    <!--<div class="form-group" *ngFor="let question of myForm.get('questions')['controls']; let i = index">-->
+      <!--<label>Question {{i+1}}</label>-->
+      <!--<input class="form-control" formControlName="{{i+1}}" />-->
+      <!--<button class="btn btn-default" (click)="addAnswer(myForm.get('questions')['controls'])">+</button>-->
+      <!--<button class="btn btn-default" (click)="deleteQuestion(i)">-</button>-->
+    <!--</div>-->
+  <!--</div>-->
+
+
+  <div class="form-group">
+    <button class="btn btn-default" (click)="viewQuiz()">
+      see Quiz
+    </button>
+  </div>
+
+  <button  *ngIf="quiz.quizName&&quiz.quizTheme&&quizService.isReadyToSubmit" type="submit" (click)="onSubmit()"  class="btn btn-success">Submit</button>
+</form>
+  </div>
+</ng-container>

@@ -1,0 +1,51 @@
+
+.login-form__container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 80px auto;
+}
+
+.login-form__danger-alert {
+  margin-top: 20px
+}
+
+.signin{
+  min-height: 40px;
+  min-width: 80px;
+  font-size: initial;
+  background-color: azure;
+  border-radius: 7px;
+}
+
+.mat-form-field{
+  width: 400px;
+}
+
+.login{
+  padding: 15% 10% 17% 35%;
+  min-height: 40px;
+  min-width: 80px;
+  font-size: initial;
+  background-color: whitesmoke;
+  border-radius: 7px;
+}
+
+button[disabled]{
+  background-color: lightsalmon;
+}
+
+.logged{
+  padding: 17% 10% 1% 36%;
+  min-width: 80px;
+  font-size: initial;
+  background-color: whitesmoke;
+  border-radius: 7px;
+}
+
+.btn{
+  padding: 0% 10% 24% 35%;
+  font-size: initial;
+  background-color: whitesmoke;
+  border-radius: 7px;
+}

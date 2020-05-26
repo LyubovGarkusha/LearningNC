@@ -1,0 +1,51 @@
+.container .mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+
+.container .mat-form-field {
+  width: 100%;
+}
+
+.container form {
+  margin-bottom: 20px;
+}
+
+.container form > * {
+  margin: 5px 0;
+}
+
+.container .mat-radio-button {
+  margin: 0 12px;
+}
+
+
+
+.question_text {
+  width: 80%;
+}
+
+.answerInput{
+  width: 100%;
+}
+
+.answerTemplate{
+  padding: 0% 2% 0% 2%;
+  width: 100%;
+}
+.mat-radio-label-content{
+  width: 80%;
+}
+
+.mat-form-field{
+  width: 80%;
+}
+
+.mat-checkbox {
+  position: relative;
+
+}
+
+.mat-input-element{
+  color: black;
+  font-size: 16px;
+}

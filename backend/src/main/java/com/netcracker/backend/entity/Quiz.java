@@ -24,7 +24,7 @@ public class Quiz {
     private List<AnswerSubmitted> answerSubmittedList;
 
     @Basic
-    @OneToMany(mappedBy = "answerTemplate")
+    @OneToMany(mappedBy = "answerTemplate",cascade=CascadeType.ALL)
     @JsonManagedReference(value = "quiz-subanswer")
     public List<AnswerSubmitted> getAnswerSubmittedList() {
         return answerSubmittedList;
@@ -35,7 +35,7 @@ public class Quiz {
     }
 
     @Basic
-    @OneToMany( mappedBy = "quiz")
+    @OneToMany( mappedBy = "quiz", cascade=CascadeType.ALL)
     @JsonManagedReference(value = "quiz-question")
     public List<Question> getQuestionList() {
         return questionList;

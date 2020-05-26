@@ -7,9 +7,12 @@ import {Quiz} from '../modules/quiz/models/quiz';
 // Data service
 export class QuizService {
 
+  isReadyToSubmit = false;
+
   constructor(private http: HttpClient) {
   }
   getQuizById(quizId: string): Observable<Quiz> {
+    console.log('getQuizById');
     return this.http.get<Quiz>('/api/quiz/all/' + quizId);
   }
   getAllQuizzes(): Observable<Quiz[]> {
@@ -20,6 +23,7 @@ export class QuizService {
   }
 
   saveQuiz(quiz: Quiz): Observable<Quiz> {
+    console.log('saveQuiz');
     return this.http.post<Quiz>('/api/quiz/all', quiz);
   }
 

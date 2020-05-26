@@ -1,0 +1,48 @@
+<div class="signup">
+  <ng-container>
+    <div class="sign-up__container">
+        <!--<div class="form-group">-->
+          <!--<label for="exampleInputName2">Your name</label>-->
+          <!--<input (focus)="showCheckYourSetDataAlert = false" type="name" class="form-control"  [(ngModel)]="userModel.name" id="exampleInputName2" placeholder="name">-->
+        <!--</div>-->
+
+      <div class="form-group">
+        <mat-form-field appearance="fill">
+          <mat-label>Enter your name</mat-label>
+          <input [(ngModel)]="userModel.name" matInput placeholder="MyName" required>
+        </mat-form-field>
+      </div>
+
+      <div class="form-group">
+        <mat-form-field appearance="fill">
+          <mat-label>Enter your email</mat-label>
+          <input [(ngModel)]="userModel.login.email" matInput placeholder="email@example.com" [formControl]="email" required>
+          <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="form-group">
+        <mat-form-field appearance="fill">
+          <mat-label>Enter password</mat-label>
+          <input required matInput [(ngModel)]="userModel.login.password" [type]="hide ? 'password' : 'text'">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+      </div>
+
+
+      <!--<div class="form-group">-->
+        <!--<label for="exampleInputEmail2">Your email</label>-->
+        <!--<input (focus)="showCheckYourSetDataAlert = false" type="email" class="form-control" [(ngModel)]="userModel.login.email" id="exampleInputEmail2" placeholder="email">-->
+      <!--</div>-->
+      <!--<div class="form-group">-->
+        <!--<label for="exampleInputPassword2">Password</label>-->
+        <!--<input (focus)="showCheckYourSetDataAlert = false" type="password" class="form-control"  [(ngModel)]="userModel.login.password" id="exampleInputPassword2" placeholder="password">-->
+      <!--</div>-->
+      <!--<button *ngIf="email.invalid||!userModel.login.password||!userModel.name" class="btn btn-primary signup-btn" >SIGN UP</button>-->
+      <!--<button [disabled]="!email.invalid&&userModel.login.password&&userModel.name" type="submit" class="btn btn-primary signup-btn" (click)="onSubmit()">SIGN UP</button>-->
+      <button [disabled]="email.invalid||!userModel.login.password||!userModel.name" type="submit" class="btn btn-primary signup-btn" (click)="onSubmit()">Sign up!</button>
+    </div>
+  </ng-container>
+</div>

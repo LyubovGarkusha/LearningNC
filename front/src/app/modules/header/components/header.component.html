@@ -1,1 +1,9 @@
-<div>HEADER</div>
+<div class="header">
+
+  <mat-button-toggle-group class="btns" name="fontStyle" aria-label="Font Style">
+    <mat-button-toggle *ngIf="storageService.getCurrentUser()" class="logOut" value="btn_logout" (click)="logout()" [routerLink]="['/login']">Log out</mat-button-toggle>
+    <mat-button-toggle *ngIf="!storageService.getCurrentUser()" class="logIn" value="btn_login" [routerLink]="['/login']">Sign in</mat-button-toggle>
+    <mat-button-toggle class="signUp" value="btn_sign_up" [routerLink]="['/signup']">Sign up</mat-button-toggle>
+  </mat-button-toggle-group>
+
+</div>

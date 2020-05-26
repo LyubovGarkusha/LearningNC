@@ -7,12 +7,16 @@ import {AppHeaderModule} from '../header/header.module';
 import {QuizEditViewComponent} from './components/quiz-edit/quiz-edit-view.component';
 import {LoginComponent} from './components/login/login.component';
 import {LoginModule} from '../login/login.module';
+import {SignUpViewComponent} from './components/sign-up/sign-up-view.component';
+import {QuizNewViewComponent} from './components/quiz-new/quiz-new-view.component';
 
 @NgModule({
   declarations: [
     QuizzesPanelViewComponent,
     QuizEditViewComponent,
-    LoginComponent
+    LoginComponent,
+    SignUpViewComponent,
+    QuizNewViewComponent
   ],
   imports: [
     QuizModule,
@@ -25,7 +29,9 @@ import {LoginModule} from '../login/login.module';
   exports: [
     QuizzesPanelViewComponent,
     QuizEditViewComponent,
-    LoginComponent
+    LoginComponent,
+    SignUpViewComponent,
+    QuizNewViewComponent
   ]
 })
 export class LayoutModule {}

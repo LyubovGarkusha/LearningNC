@@ -28,7 +28,7 @@
         </div>
         <div *ngIf="question.questionType=='CHECKED'" class="quiz-answer">
 
-          <div *ngFor="let answerTemplate of question.answerTemplates;let i = index;" class="quiz-answer">
+          <div *ngFor="let answerTemplate of question.answerTemplates; let i = index;" class="quiz-answer">
             <input *ngIf="editMode" class=""  name="answer{{i}}"
                    [(ngModel)]="answerTemplate.answerText" placeholder="{{answerTemplate.answerText}}"/>
             <div *ngIf="!editMode" class="" >

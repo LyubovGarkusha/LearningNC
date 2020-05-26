@@ -1,6 +1,7 @@
 .edit-frame{
   position: relative;
-  top: 65px;
+  padding-top: 8%;
+  padding-left: 10%;
 }
 
 .quiz-name{
